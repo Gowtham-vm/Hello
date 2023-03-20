@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="Stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="bg-img">
+        <div class="img1">
+            <img src="bubbles-png-transparent-image-pngpix-4.png">
+        </div>
+        <div class="img2">
+            <img src="bubbles-png-transparent-image-pngpix-4.png">
+        </div>
+    </div>
+
+    <div class="box">
+        <div>
+            <h2>Sign up with your email</h2>
+        </div>
+        <div>
+            <p>Alredy have an account? <a href="a">sign in</a></p>
+        </div>
+
+        <form action="/" method="post">
+            <div class="user-details">
+                <input type="text" required>
+                <label>First name</label>
+            </div>
+
+            <div class="user-details">
+                <input type="text" required>
+                <label>Last name</label>
+            </div>
+
+            <div class="user-details">
+                <input type="text" required>
+                <label>Email address</label>
+            </div>
+
+            <div class="user-details">
+                <input id="password" type="password" required>
+                <label>Password</label>
+                <span id="eye" onclick="toggle()" class="fas fa-eye-slash"></span>
+            </div>
+
+            <div class="line">
+                <input type="checkbox"> I agree to the <span>Terms of service</span> and <span>Privacy policy</span>
+            </div>
+
+
+            <div class="button">
+                <input type="button" value="Create Account">
+            </div>
+    </div>
+    </form>
+    </div>
+
+    <script src="HasoTech.js"></script>
+
+</body>
+
+</html>

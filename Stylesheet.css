@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    background-color: white;
+}
+
+.bg-img .img1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.bg-img .img2 {
+    position: absolute;
+    bottom: 20px;
+    left: 80px;
+}
+
+.bg-img img {
+    width: 300px;
+    opacity: 0.5;
+}
+
+.box {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding-top: 20px;
+    width: 400px;
+    height: 500px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(231, 230, 230);
+}
+
+
+h2 {
+    margin: 25px 0 0 45px;
+}
+
+p {
+    margin: 5px 45px;
+    font-size: 7px;
+}
+
+form {
+    padding: 0px 30px 0px 30px;
+    margin-top: 10px;
+}
+
+.user-details {
+    position: relative;
+    height: 35px;
+    padding: 2px;
+    margin-top: 20px;
+}
+
+.user-details input {
+    width: 90%;
+    height: 100%;
+    outline: none;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 10px;
+    border-bottom-width: 2px;
+}
+
+.user-details label {
+    position: absolute;
+    font-size: 15px;
+    top: 25px;
+    left: 20px;
+    transition: all 0.3s ease;
+    transform: translateY(-50%);
+}
+
+.user-details input:focus~label,
+.user-details input:valid~label {
+    top: 35%;
+    width: 100%;
+    font-size: 5px;
+    transform: translateY(-50%)
+}
+
+.line {
+    margin-top: 25px;
+    padding-left: 10px;
+    font-size: 10px;
+}
+
+.button {
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.button input {
+    height: 100%;
+    width: 100%;
+    font-family: 'poppins', sans-serif;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(2, 12, 209);
+    cursor: pointer;
+}
+
+.button input:hover {
+    background-color: rgb(12, 18, 200);
+}
+
+span {
+    color: rgb(217, 1, 217);
+}
+
+.fa-eye-slash,
+.fa-eye {
+    position: absolute;
+    top: 50%;
+    right: 8%;
+    cursor: pointer;
+    color: lightgray;
+}
+
+@media (max-width:730px) {
+    .bg-img {
+        display: none;
+    }
+}
